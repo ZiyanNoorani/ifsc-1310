@@ -1,0 +1,42 @@
+/* ---- CSS Demo ---- */
+
+body {
+    background-color: cyan;
+}
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png');
+}
+body {
+    color: white;
+}
+a {
+    color:white;
+}
+a:visited {
+    color:lightcoral;
+}
+a:hover {
+    color:red;
+}
+
+  /*  --------------- Global Styles -----------------  */
+
+  body {
+    font-family: "Anta", sans-serif;
+  }
+
+  header.primary {
+    background:lightslategray;
+  }

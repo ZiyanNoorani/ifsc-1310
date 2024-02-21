@@ -35,8 +35,66 @@ a:hover {
 
   body {
     font-family: "Anta", sans-serif;
+    margin: 0;
   }
 
   header.primary {
     background:lightslategray;
+    text-align:center;
+    text-shadow: 2px 2px 20px #000;
+    padding: 40px; /*Short hand for the padding*/
+    /*long form
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    adding-left: 40px;*/ 
+    /* T,R,B,L 
+    padding: 20px 40px 20px 40px;  */
+    /* Two Value Top/Bottom / L/R 
+    padding: 20px 40px;  */
+  }
+
+  header.primary h1 {
+    font-size: 2.4rem;
+    margin: 20px 0 0;
+  }
+
+  header.primary h1 a{
+    text-decoration: none;
+  }
+
+  header.primary h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  header.primary nav{
+    max-width: 900px;
+    margin: auto;
+  }
+
+  header.primary ul{
+    padding:10px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  header.primary ul li{
+    list-style-type: none;
+  }
+
+  header.primary nav a{
+    color:aliceblue;
+    text-decoration: none;
+    background-color: rgba(0,0,0,.4);
+    padding: 5px 4px 4px;
+    border-radius:27px 49px;
+    border: 4px solid palegreen;
+    transition:.4s;
+  }
+
+  header.primary nav a:hover{
+    background-color: rgba(0,0,0,.8);
+    text-decoration:underline;
   }

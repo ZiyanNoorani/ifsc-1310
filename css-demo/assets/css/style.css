@@ -139,10 +139,11 @@ a:hover {
   }
 
   #blog .post{
-    box-shadow:0 8px 16px rgba(0,0,0,.75);
+    box-shadow:0 4px 8px rgba(0,0,0,.75);
     padding:10px;
     border-radius:22px;
     font-size:.8rem;
+    transition:.5s;
   }
 
   #blog figure{
@@ -156,13 +157,20 @@ a:hover {
   }
 
   #blog header{
-    background:red;
     padding-top:10px;
     font-size:.6rem;
   }
 
   #blog header h2{
     margin:0;
+  }
+
+  #blog a{
+    color:#AE58F5;
+  }
+
+  #blog .post:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,.6);
   }
 
 

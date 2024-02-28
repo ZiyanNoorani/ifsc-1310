@@ -136,6 +136,10 @@ a:hover {
     flex-direction:row;
     justify-content:space-around;
     gap:2rem;
+    border-bottom:1px dotted #AE58F5;
+    padding-bottom: 2rem;
+    border-top:1px dotted #AE58F5;
+    padding-top: 2rem;
   }
 
   #blog .post{
@@ -173,6 +177,37 @@ a:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,.6);
   }
 
+  aside[role="complementary"]{
+    background-color: #5868F5;
+    padding:1.9rem;
+  }
+
+  aside .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:60px;
+  }
+
+  aside .container a{
+    color:#fff;
+  }
+
+  aside .container a:last-of-type{
+    display: block;
+    text-align: right;
+  }
+
+  aside .widget footer{
+    display: none;
+  }
+
+  #colophon{
+    background-color: #5868F5;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
 
 
 

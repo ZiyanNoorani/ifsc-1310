@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+nav a{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around; 
+    padding:0;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 7.5px 10px;
+    border-radius:20px;
+    border: 1px solid #c0c0c0;
+    transition: 0.4s;
+}
+
+header .primary::before{
+    content: "";
+    background-image:;
+}
+
+ul li{
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    width: 80vw;
+    margin: 40px auto;
+  }
+
+body {
+    font-family: "Sedan", sans-serif;
+}
+
+#colophon {
+    background-color: navy;
+    text-align: center;
+}

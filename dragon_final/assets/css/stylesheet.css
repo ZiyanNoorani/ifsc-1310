@@ -72,6 +72,7 @@ header.primary {
   font-size: 0.8rem;
   transition: 0.5s;
   flex: 1;
+  overflow:hidden;
 }
 
 #blog figure {
@@ -113,7 +114,10 @@ ul li{
 }
 
 img {
-    max-width: 100%;
+    max-width: 50%;
+    height:auto;
+    float:left;
+    margin-right:1em;
 }
 
 .container {
